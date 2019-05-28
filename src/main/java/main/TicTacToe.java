@@ -17,6 +17,19 @@ public static int[][] ticbox;
 		
 		
 		//write your code here !!!
+		for(int i=0;i<3;i++) {
+			for(int j=0;j<3;j++) {
+				if((tic[i][j]==1))
+				{
+					return 1;
+				}
+				if((tic[i][j]==2))
+				{
+					return 2;
+				}
+				
+			}
+			}
 		
 		
 		
@@ -40,8 +53,17 @@ public static int[][] ticbox;
 		
 		
 		//Write your code here !!!
-		
-		
+				 if(a1>=0 && a1<3)
+					{
+						if(a2>=0 && a2<3)
+						{
+				if(ticbox[a1][a2]==0) {
+					return true;
+				
+			}
+		}
+							
+		}				
 		return false;
 	}
 	public static void main(String args[]) {
